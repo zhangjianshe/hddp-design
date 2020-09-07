@@ -33,10 +33,10 @@ public class QueryDesignWorksheetListRequest {
     @ApiField(value = "任务状态", example = "0")
     public String status;
 
-    @ApiField(value = "查询起始时间，精确到时分秒,如果不填，搜索全部", example = "2020年05月13日 13:53:07")
+    @ApiField(value = "查询起始时间，精确到时分秒,如果不填，搜索全部", example = "2020-05-13 13:53:07")
     public String startTime;
 
-    @ApiField(value = "查询结束时间，精确到时分秒，如果不填（null 或者 空字符串），搜索全部", example = "2020年05月13日 13:53:07")
+    @ApiField(value = "查询结束时间，精确到时分秒，如果不填（null 或者 空字符串），搜索全部", example = "2020-05-13 13:53:07")
     public String startEnd;
 
     @ApiField(value = "分页大小，每次返回的数量", example = "20")

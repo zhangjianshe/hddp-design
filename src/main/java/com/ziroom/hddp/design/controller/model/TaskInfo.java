@@ -30,7 +30,7 @@ public class TaskInfo {
     @ApiField(value = "设计师工号", example = "60005677")
     public String zdUserCode;
 
-    @ApiField(value = "创建时间", example = "2020年05月13日 13:53:07")
+    @ApiField(value = "创建时间", example = "2020-05-13 13:53:07")
     public String createTime;
 
     @Codes({
@@ -52,7 +52,7 @@ public class TaskInfo {
     @ApiField(value = "任务状态", example = "0")
     public String status;
 
-    @ApiField(value = "审批时间", example = "2020年05月13日 13:53:07")
+    @ApiField(value = "审批时间", example = "2020-05-13 13:53:07")
     public String approvalTime;
 
     @ApiField(value = "审批人", example = "张建设")

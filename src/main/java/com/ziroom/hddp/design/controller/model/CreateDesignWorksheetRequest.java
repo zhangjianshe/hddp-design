@@ -17,7 +17,9 @@ public class CreateDesignWorksheetRequest {
     @ApiField(value = "设计师用户号", example = "60005677")
     @NotNull(message = "请填写设计师用户号")
     public String zdUserCode;
-
+    @ApiField(value = "设计师用户名称", example = "张建设")
+    @NotNull(message = "请填写设计师用户名称")
+    public String zdUserName;
 
     @ApiField(value = "房源编码", example = "5604394343")
     @NotNull(message = "请填写房源编码")
@@ -39,7 +41,7 @@ public class CreateDesignWorksheetRequest {
 
     @ApiField(value = "工单来源，此处可以填写公司的产品版本，设计系统对此不会解释使用，PRD上说 填写 心舍", example = "心舍")
     @NotNull(message = "请填写创建工单来源")
-    public String source;
+    public String ziroomVersionId;
 
     @ApiField(value = "使用此接口的人可以传入任何相关联到此设计工单的内容，设计系统不做解释，不使用，查询设计工单时，此值原样返回，也可以不填写", example = "15910868680", mandidate = false)
     public String tag;

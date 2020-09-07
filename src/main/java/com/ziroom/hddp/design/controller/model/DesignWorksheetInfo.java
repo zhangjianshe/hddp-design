@@ -39,7 +39,7 @@ public class DesignWorksheetInfo {
     @ApiField(value = "使用此接口的人可以传入任何相关联到此设计工单的内容，设计系统不做解释，不适用，查询设计工单时，此值原样返回，也可以不填写", example = "15910868680")
     public String tag;
 
-    @ApiField(value = "创建时间", example = "2020年05月13日 13:53:07")
+    @ApiField(value = "创建时间", example = "2020-05-13 13:53:07")
     public String createTime;
 
 

@@ -40,13 +40,13 @@ public class DesignWebController {
         return new QueryDesignTaskResp();
     }
 
-    @Doc(value = "提交平面图", order = 1, group = "/2.设计", author = AUTHOR_ZHANGJIANSHE, desc = "WEB页面会调用此接口查询")
+    @Doc(value = "提交平面图", order = 21, group = "/2.设计", author = AUTHOR_ZHANGJIANSHE, desc = "WEB页面会调用此接口查询")
     @RequestMapping(value = "worksheet/task/resource/submit")
     public TaskResourceSubmitResp taskResourceSubmit(@RequestBody TaskResourceSubmitReq request) {
         return new TaskResourceSubmitResp();
     }
 
-    @Doc(value = "任务单审计", order = 1, group = "/3.审计", author = AUTHOR_ZHANGJIANSHE,
+    @Doc(value = "任务单审计", order = 31, group = "/3.审计", author = AUTHOR_ZHANGJIANSHE,
             desc = "审核不通过，记录审核结果，任务状态改为已驳回，审核通过，记录审核结果，检查设计工单是否全部完成审核，如果是，将设计工单转为已完成")
     @RequestMapping(value = "worksheet/task/audit")
     public TaskAuditResp taskAudit(@RequestBody TaskAuditRequest request) {

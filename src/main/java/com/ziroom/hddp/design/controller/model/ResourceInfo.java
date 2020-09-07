@@ -39,7 +39,7 @@ public class ResourceInfo {
     @ApiField(value = "3D 设计时使用，房间类型编码,本次不用", example = "308600000001")
     public String roomTypeCode;
 
-    @ApiField(value = "创建时间", example = "2020年05月13日 13:53:07")
+    @ApiField(value = "创建时间", example = "2020-05-13 13:53:07")
     public String createTime;
 
 
